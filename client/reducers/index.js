@@ -4,6 +4,6 @@ import { routerReducer }  from 'react-router-redux';
 import posts from './posts';
 import comments from './comments';
 
-const RootReducer = combineReducers({posts, comments, router: routerReducer});
+const RootReducer = combineReducers({posts, comments, routing: routerReducer});
 
 export default comments;
