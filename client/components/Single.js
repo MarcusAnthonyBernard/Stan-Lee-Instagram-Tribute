@@ -1,16 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router';
 
-const Main = React.createClass({
+const Single = React.createClass({
     render() {
         return (
-            <div>
-                <h1>
-                <Link to="/">StanStagram</Link>
-                </h1>
+            <div className="single-photo">
+                I'm the single
             </div>
         )
     }
 });
 
-export default Main;
+export default Single;
